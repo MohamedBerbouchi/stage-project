@@ -1,0 +1,24 @@
+1-tout les emails dans:
+_________________________
+emails/emails.json
+
+
+
+2-configuration base donne est dans fichier .env
+_______________________________________________________
+mofifier les proprieties suivants:
+
+DB_DATABASE=nom_base_de_donne
+DB_USERNAME=username_de_base_de_donne
+DB_PASSWORD=password__de_base_de_donne
+
+=>mofifier les proprieties suivants pour emails:
+
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=mohamed.berbouchi.edu@gmail.com
+MAIL_PASSWORD=tpiiisjbzighgwtt
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS="mohamed.berbouchi.edu@gmail.com"
+MAIL_FROM_NAME="berbouchi"
